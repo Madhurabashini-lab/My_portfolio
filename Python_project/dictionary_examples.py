@@ -1,27 +1,3 @@
-madhura = {
-    'gender': 'female',
-     'age':  '30',
-     'city': 'cork'
-}
-
-madhura ['surname'] = 'guha'
-
-car = {
-    'color': 'blue',
-    'model': 'golf',
-    'year': '2020'
-
-}
-
-car1 = dict(car)
-
-car1['color'] = 'red'
-car1['model'] = 'polo'
-
-print(f"madhura, your car color is {car['color']}")
-print(madhura['city'])
-print(madhura, car, car1)
-#---------------------------------------------------------------------
 
 river = {
     'nile': 'egypt',
@@ -58,18 +34,7 @@ pets = (frankie, oreo, lucy)
 
 for pet in pets:
     print(pet)
-    #-------------------------------------------------------
-
-bigglesworth = { 
-    'fur': 'none',
-    'eyes': 'souls of the damned',
-    'toes': 'cloven hoofs',
-    'favourite foods': ['joy', 'happiness', 'souls', 'tuna - occasionally']
-    }
-for details in bigglesworth['favourite foods']:
-    print(f"bigglesworth's favourite food is {details}")
-
-#--------------------------------------------------------------
+#-------------------------------------------------------
 
 cats = {
     'weasley' : { 
@@ -116,17 +81,7 @@ cities = {
 
 for city, information in cities.items():
     print(city, information)
-#--------------------------------------------------
 
-foods = ['tuna', 'sardines', 'chicken', 'beef', 'avocado']
-
-for food in foods:
-    if food == 'chicken':
-        print(f"I know you don't like chicken, but this is good for you!")
-    else:
-        print(f"We have {food} in the pantry, let's eat!")
-       
-print("No more food! Goodbye!")
 
 
 
